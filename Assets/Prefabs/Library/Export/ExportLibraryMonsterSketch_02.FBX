@@ -1,0 +1,1958 @@
+; FBX 7.4.0 project file
+; Copyright (C) 1997-2010 Autodesk Inc. and/or its licensors.
+; All rights reserved.
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7400
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2022
+		Month: 11
+		Day: 17
+		Hour: 18
+		Minute: 1
+		Second: 51
+		Millisecond: 607
+	}
+	Creator: "FBX SDK/FBX Plugins version 2014.0.1"
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: ""
+			Subject: ""
+			Author: ""
+			Keywords: ""
+			Revision: ""
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "C:\Users\user\Documents\3dsMax\export\ExportLibraryMonsterSketch_02.FBX"
+			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\user\Documents\3dsMax\export\ExportLibraryMonsterSketch_02.FBX"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
+			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
+			P: "Original|ApplicationVersion", "KString", "", "", "2014"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "17/11/2022 15:01:51.606"
+			P: "Original|FileName", "KString", "", "", "C:\Users\user\Documents\3dsMax\export\ExportLibraryMonsterSketch_02.FBX"
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
+			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
+			P: "LastSaved|ApplicationVersion", "KString", "", "", "2014"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "17/11/2022 15:01:51.606"
+		}
+	}
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",2
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",1
+		P: "FrontAxisSign", "int", "Integer", "",-1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",2
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",2.54
+		P: "OriginalUnitScaleFactor", "double", "Number", "",2.54
+		P: "AmbientColor", "ColorRGB", "Color", "",0.0784310027956963,0.0784310027956963,0.0784310027956963
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",6
+		P: "TimeProtocol", "enum", "", "",2
+		P: "SnapOnFrameMode", "enum", "", "",0
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",230930790000
+		P: "CustomFrameRate", "double", "Number", "",-1
+		P: "TimeMarker", "Compound", "", ""
+		P: "CurrentTimeMarker", "int", "Integer", "",-1
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 2665646160, "", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 90
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "AnimationStack" {
+		Count: 1
+		PropertyTemplate: "FbxAnimStack" {
+			Properties70:  {
+				P: "Description", "KString", "", "", ""
+				P: "LocalStart", "KTime", "Time", "",0
+				P: "LocalStop", "KTime", "Time", "",0
+				P: "ReferenceStart", "KTime", "Time", "",0
+				P: "ReferenceStop", "KTime", "Time", "",0
+			}
+		}
+	}
+	ObjectType: "AnimationLayer" {
+		Count: 1
+		PropertyTemplate: "FbxAnimLayer" {
+			Properties70:  {
+				P: "Weight", "Number", "", "A",100
+				P: "Mute", "bool", "", "",0
+				P: "Solo", "bool", "", "",0
+				P: "Lock", "bool", "", "",0
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BlendMode", "enum", "", "",0
+				P: "RotationAccumulationMode", "enum", "", "",0
+				P: "ScaleAccumulationMode", "enum", "", "",0
+				P: "BlendModeBypass", "ULongLong", "", "",0
+			}
+		}
+	}
+	ObjectType: "Model" {
+		Count: 1
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",0
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 1
+		PropertyTemplate: "FbxMesh" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BBoxMin", "Vector3D", "Vector", "",0,0,0
+				P: "BBoxMax", "Vector3D", "Vector", "",0,0,0
+				P: "Primary Visibility", "bool", "", "",1
+				P: "Casts Shadows", "bool", "", "",1
+				P: "Receive Shadows", "bool", "", "",1
+			}
+		}
+	}
+	ObjectType: "Material" {
+		Count: 25
+		PropertyTemplate: "FbxSurfacePhong" {
+			Properties70:  {
+				P: "ShadingModel", "KString", "", "", "Phong"
+				P: "MultiLayer", "bool", "", "",0
+				P: "EmissiveColor", "Color", "", "A",0,0,0
+				P: "EmissiveFactor", "Number", "", "A",1
+				P: "AmbientColor", "Color", "", "A",0.2,0.2,0.2
+				P: "AmbientFactor", "Number", "", "A",1
+				P: "DiffuseColor", "Color", "", "A",0.8,0.8,0.8
+				P: "DiffuseFactor", "Number", "", "A",1
+				P: "Bump", "Vector3D", "Vector", "",0,0,0
+				P: "NormalMap", "Vector3D", "Vector", "",0,0,0
+				P: "BumpFactor", "double", "Number", "",1
+				P: "TransparentColor", "Color", "", "A",0,0,0
+				P: "TransparencyFactor", "Number", "", "A",0
+				P: "DisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "DisplacementFactor", "double", "Number", "",1
+				P: "VectorDisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "VectorDisplacementFactor", "double", "Number", "",1
+				P: "SpecularColor", "Color", "", "A",0.2,0.2,0.2
+				P: "SpecularFactor", "Number", "", "A",1
+				P: "ShininessExponent", "Number", "", "A",20
+				P: "ReflectionColor", "Color", "", "A",0,0,0
+				P: "ReflectionFactor", "Number", "", "A",1
+			}
+		}
+	}
+	ObjectType: "Texture" {
+		Count: 29
+		PropertyTemplate: "FbxFileTexture" {
+			Properties70:  {
+				P: "TextureTypeUse", "enum", "", "",0
+				P: "Texture alpha", "Number", "", "A",1
+				P: "CurrentMappingType", "enum", "", "",0
+				P: "WrapModeU", "enum", "", "",0
+				P: "WrapModeV", "enum", "", "",0
+				P: "UVSwap", "bool", "", "",0
+				P: "PremultiplyAlpha", "bool", "", "",1
+				P: "Translation", "Vector", "", "A",0,0,0
+				P: "Rotation", "Vector", "", "A",0,0,0
+				P: "Scaling", "Vector", "", "A",1,1,1
+				P: "TextureRotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TextureScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "CurrentTextureBlendMode", "enum", "", "",1
+				P: "UVSet", "KString", "", "", "default"
+				P: "UseMaterial", "bool", "", "",0
+				P: "UseMipMap", "bool", "", "",0
+			}
+		}
+	}
+	ObjectType: "CollectionExclusive" {
+		Count: 2
+		PropertyTemplate: "FbxDisplayLayer" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "Show", "bool", "", "",1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+			}
+		}
+	}
+	ObjectType: "Video" {
+		Count: 29
+		PropertyTemplate: "FbxVideo" {
+			Properties70:  {
+				P: "ImageSequence", "bool", "", "",0
+				P: "ImageSequenceOffset", "int", "Integer", "",0
+				P: "FrameRate", "double", "Number", "",0
+				P: "LastFrame", "int", "Integer", "",0
+				P: "Width", "int", "Integer", "",0
+				P: "Height", "int", "Integer", "",0
+				P: "Path", "KString", "XRefUrl", "", ""
+				P: "StartFrame", "int", "Integer", "",0
+				P: "StopFrame", "int", "Integer", "",0
+				P: "PlaySpeed", "double", "Number", "",0
+				P: "Offset", "KTime", "Time", "",0
+				P: "InterlaceMode", "enum", "", "",0
+				P: "FreeRunning", "bool", "", "",0
+				P: "Loop", "bool", "", "",0
+				P: "AccessMode", "enum", "", "",0
+			}
+		}
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	Geometry: 1050044096, "Geometry::", "Mesh" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.603921568627451,0.725490196078431,0.898039215686275
+		}
+		Vertices: *96 {
+			a: -11.9216461181641,-1.84059143066406,8.21357917785645,9.83652019500732,-1.84059607982636,8.21358489990234,-11.921648979187,19.8456974029541,8.21358108520508,9.83651828765869,19.8456935882568,8.21358585357666,9.83651828765869,18.898681640625,8.21358489990234,-11.921648979187,18.8986835479736,8.21358013153076,9.83652019500732,-1.01424872875214,8.21358489990234,-11.9216461181641,-1.0142468214035,8.21357917785645,-11.0699014663696,-1.84059143066406,8.21357822418213,-11.0699005126953,19.8456974029541,8.21358013153076,-11.0699005126953,18.8986835479736,8.21358013153076,-11.0699014663696,-1.0142468214035,8.21357822418213,8.95083999633789,19.8456935882568,8.21358299255371,8.95084095001221,18.898681640625,8.21358489990234,8.95083713531494,-1.01424872875214,8.21358299255371,8.95083713531494,-1.84059321880341,8.21358299255371,-11.0699005126953,18.8986854553223,7.92083692550659,-11.0699014663696,-1.01424670219421,7.92083549499512,8.95083713531494,-1.01424777507782,7.92084121704102,8.95083999633789,18.898681640625,7.92084169387817,-11.9216451644897,-1.84059143066406,7.68829011917114,9.83652019500732,-1.84059321880341,7.68829488754272,-11.921648979187,19.8456974029541,7.68829154968262,9.83651828765869,19.8456935882568,7.68829679489136,9.83651828765869,18.898681640625,7.6882963180542,-11.921648979187,18.8986854553223,7.68829107284546,9.83652019500732,-1.01424777507782,7.68829441070557,-11.9216451644897,-1.0142457485199,7.68829011917114,-11.0699014663696,-1.84059143066406,7.68828964233398,-11.0699005126953,19.8456974029541,7.6882905960083,8.95083999633789,19.8456935882568,7.68829488754272,8.95083713531494,-1.84059321880341,7.68829536437988
+		} 
+		PolygonVertexIndex: *100 {
+			a: 0,8,11,-8,4,3,12,-14,6,4,13,-15,8,15,14,-12,9,2,5,-11,10,5,7,-12,12,9,10,-14,19,16,17,-19,15,1,6,-15,10,11,17,-17,11,14,18,-18,14,13,19,-19,13,10,16,-20,8,0,20,-29,6,1,21,-27,12,3,23,-31,5,2,22,-26,3,4,24,-24,7,5,25,-28,4,6,26,-25,0,7,27,-21,15,8,28,-32,2,9,29,-23,9,12,30,-30,1,15,31,-22
+		} 
+		Edges: *56 {
+			a: 0,33,5,17,4,21,9,8,3,34,12,16,20,2,1,25,36,24,48,40,32,6,44,13,29,30,31,28,49,37,41,45,53,57,65,61,69,73,77,81,85,89,93,97,54,58,62,66,70,74,78,82,86,90,94,98
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: ""
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *300 {
+				a: 1.1196715377082e-006,0,1,4.40749943209084e-007,0,1,4.80444839467964e-007,-2.39460984374773e-008,1,8.39752999581833e-007,-3.59191467680375e-008,0.999999940395355,-1.34596518819308e-006,2.27812279263162e-007,1,-1.6151600448211e-006,5.03516730532283e-007,1,-9.02847943962115e-007,7.55275550545775e-007,0.999999940395355,-9.60822831075347e-007,4.87552767935995e-007,1,-1.61515220042929e-006,-2.39460771211952e-008,1,-1.34596518819308e-006,2.27812279263162e-007,1,-9.60822831075347e-007,4.87552767935995e-007,1,-1.15615864615393e-006,-1.59640514141302e-008,1,4.40749943209084e-007,0,1,-1.19585388347332e-006,0,1,-1.15615864615393e-006,-1.59640514141302e-008,1,4.80444839467964e-007,-2.39460984374773e-008,1,1.84648129675224e-007,2.51758734748364e-007,1,5.59833324587089e-007,-5.03516560002026e-007,1,5.59833949864696e-007,-2.87677465848901e-007,1,3.09710230794735e-007,1.43893103654591e-007,1,3.09710230794735e-007,1.43893103654591e-007,1,5.59833949864696e-007,-2.87677465848901e-007,1,8.39752999581833e-007,-3.59191467680375e-008,0.999999940395355,4.80444839467964e-007,-2.39460984374773e-008,1,-9.02847943962115e-007,7.55275550545775e-007,0.999999940395355,1.84648129675224e-007,2.51758734748364e-007,1,3.09710230794735e-007,1.43893103654591e-007,1,-9.60822831075347e-007,4.87552767935995e-007,1,-2.61988759575615e-007,-4.78921862168136e-008,1,-2.61988759575615e-007,-4.78921862168136e-008,1,-2.61988759575615e-007,-4.78921862168136e-008,1,-2.61988759575615e-007,-4.78921862168136e-008,1,-1.19585388347332e-006,0,1,-2.1535342966672e-006,0,1,-1.61515220042929e-006,-2.39460771211952e-008,1,-1.15615864615393e-006,-1.59640514141302e-008,1,1,-4.78922181912367e-008,-1.56019376021041e-013,0.999999940395355,-4.7892214638523e-008,-1.56019376021041e-013,0.999999940395355,-4.7892214638523e-008,-1.56019376021041e-013,1,-4.78922181912367e-008,-1.56019389573568e-013,7.44281436482197e-008,0.999999940395355,1.83247141194443e-006,7.44281507536471e-008,1,1.83247152563126e-006,7.44281436482197e-008,0.999999940395355,1.83247141194443e-006,
+7.44281436482197e-008,0.999999940395355,1.83247141194443e-006,-1,1.6762264465342e-007,1.62886226462433e-006,-1,1.6762264465342e-007,1.62886226462433e-006,-1,1.6762264465342e-007,1.62886226462433e-006,-1,1.6762264465342e-007,1.62886226462433e-006,-1.42902166544445e-007,-1,-3.257715889049e-006,-1.429021807553e-007,-0.999999940395355,-3.25771611642267e-006,-1.429021807553e-007,-1,-3.25771611642267e-006,-1.42902166544445e-007,-0.999999940395355,-3.25771611642267e-006,0,-1,0,0,-0.999999940395355,0,0,-1,0,0,-1,0,1,0,0,0.999999940395355,0,0,1,0,0,0.999999940395355,0,0,0,1,0,0,1,0,0,1,0,0,1,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,0.999999940395355,0,0,1,0,0,1,0,0,1,0,0,-1,-1.67622701496839e-007,-9.07761830148957e-007,-1,-1.67622701496839e-007,-9.07761886992375e-007,-0.999999940395355,-1.67622701496839e-007,-9.07761830148957e-007,-1,-1.67622701496839e-007,-9.07761773305538e-007,1,9.5784429277046e-008,8.69493347222146e-014,1,9.5784429277046e-008,8.69493347222146e-014,1,9.5784429277046e-008,8.69493414984782e-014,1,9.5784429277046e-008,8.69493347222146e-014,-1,0,-1.81552286449005e-006,-0.999999940395355,0,-1.81552286449005e-006,-1,0,-1.81552286449005e-006,-1,0,-1.81552286449005e-006,-8.93143479174796e-008,-1,0,-8.93143479174796e-008,-1,0,-8.93143479174796e-008,-1,0,-8.93143479174796e-008,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,1.90537278399461e-007,0.999999940395355,0,1.90537278399461e-007,1,0,1.90537278399461e-007,0.999999940395355,0,1.90537278399461e-007,1,0,-1.61514844876365e-006,-1,-2.7232858883508e-006,-1.61514833507681e-006,-1,-2.7232858883508e-006,-1.61514833507681e-006,-1,-2.7232858883508e-006,-1.61514833507681e-006,-1,-2.72328566097713e-006
+			} 
+			NormalsW: *100 {
+				a: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVChannel_1"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *120 {
+				a: 1.11154365539551,0.659932196140289,1.11154365539551,0.548980295658112,1.22205626964569,0.548980295658112,1.22205626964569,0.659932196140289,1.21742749214172,0.548980295658112,1.21742749214172,0.659932196140289,1.1155766248703,0.548980295658112,1.1155766248703,0.659932196140289,1.11154365539551,0.654878437519073,1.22205626964569,0.654878437519073,1.21742749214172,0.654878437519073,1.1155766248703,0.654878437519073,1.22205626964569,0.553551912307739,1.21742749214172,0.553551912307739,1.1155766248703,0.553551912307739,1.11154365539551,0.553551912307739,0.115945525467396,0.654645800590515,0.115945525467396,0.554381132125854,0.216772735118866,0.554380536079407,0.216772735118866,0.654645800590515,1.31555020809174,0.650425434112549,1.28322947025299,0.544428110122681,1.23794233798981,0.650425553321838,1.23605382442474,0.650425553321838,1.28131020069122,0.650425553321838,1.27928626537323,0.650425553321838,1.31338608264923,0.650425434112549,1.31338608264923,0.649023532867432,1.23605382442474,0.649023532867432,1.31555020809174,0.649023532867432,1.28128278255463,0.544428110122681,1.27928626537323,0.649023532867432,1.28128278255463,0.543026328086853,1.28322947025299,0.543026328086853,1.31335866451263,0.544428110122681,1.31335866451263,0.543026328086853,1.31538259983063,0.54442822933197,1.31538259983063,0.543026328086853,1.23794233798981,0.649023532867432,1.24021470546722,0.544428110122681,1.27712213993073,0.650425553321838,1.27712213993073,0.649023532867432,1.24021470546722,0.543026328086853,1.28131020069122,0.649023532867432,1.31143963336945,0.650425434112549,1.31143963336945,0.649023532867432,1.27939450740814,0.544428110122681,1.27939450740814,0.543026328086853,2.96776223182678,1.49808943271637,2.91990447044373,1.49808943271637,2.91990447044373,1.49742591381073,2.96776223182678,1.49742591381073,2.88263535499573,1.45900511741638,2.88310217857361,1.49808943271637,2.88310217857361,1.49742591381073,2.88263535499573,1.45834159851074,2.96729516983032,1.45900511741638,2.91943764686584,1.45900511741638,2.91943764686584,
+1.45834159851074,2.96729516983032,1.45834159851074
+			} 
+			UVIndex: *100 {
+				a: 0,8,11,7,4,2,12,13,6,4,13,14,8,15,14,11,9,3,5,10,10,5,7,11,12,9,10,13,19,16,17,18,15,1,6,14,48,49,50,51,49,53,54,50,56,57,58,59,57,52,55,58,21,30,32,33,22,23,28,38,24,25,31,43,20,26,27,29,25,40,41,31,46,39,42,47,40,22,38,41,30,46,47,32,34,21,33,35,26,44,45,27,44,24,43,45,36,34,35,37
+			} 
+		}
+		LayerElementSmoothing: 0 {
+			Version: 102
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "Direct"
+			Smoothing: *25 {
+				a: 4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *25 {
+				a: 12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementSmoothing"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Model: 2938912656, "Model::library_sketch_02", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "GeometricTranslation", "Vector3D", "Vector", "",1.04253602027893,-9.0025577545166,-7.95093488693237
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",1120.71325683594,233.038665771484,-403.442565917969
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000025044782,-0,-179.999991348578
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1.55574083328247,1.55574083328247,1.55574083328247
+			P: "MaxHandle", "int", "Integer", "UH",1478
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Material: 570972544, "Material::Material #17", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570949504, "Material::texture_01", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570953984, "Material::texture_01", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570974464, "Material::texture_01", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570955264, "Material::texture_01", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570978304, "Material::texture_01", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570954624, "Material::texture_01", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "BumpFactor", "double", "Number", "",0.300000011920929
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570978944, "Material::texture_01", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570975104, "Material::texture_01", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570976384, "Material::texture_01", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570977024, "Material::texture_01", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570977664, "Material::Material #12", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570957184, "Material::Material #15", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570946944, "Material::Material #16", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570947584, "Material::Material #18", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570957824, "Material::Material #19", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570948224, "Material::Material #15", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570958464, "Material::Material #68", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 570959104, "Material::Material #71", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 2942920672, "Material::Material #23", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 2942912352, "Material::Material #69", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 2942927712, "Material::Material #70", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 2942920032, "Material::Material #70", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 2942909792, "Material::Material #72", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 2942921312, "Material::Material #73", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "BumpFactor", "double", "Number", "",0.300000011920929
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Video: 2942927072, "Video::Map #2", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_wall_01.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_wall_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\class_wall_01.jpg"
+	}
+	Video: 2942928352, "Video::Map #2", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\lights_01.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\lights_01.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\lights_01.png"
+	}
+	Video: 2942910432, "Video::Map #2", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_ceiling_01.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_ceiling_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\class_ceiling_01.jpg"
+	}
+	Video: 2942914912, "Video::Map #2", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_floor_01.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_floor_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\class_floor_01.jpg"
+	}
+	Video: 2942917472, "Video::Map #2", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_details_01.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_details_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\class_details_01.jpg"
+	}
+	Video: 2942929632, "Video::Map #2", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_bush_01.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_bush_01.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\class_bush_01.png"
+	}
+	Video: 2942925152, "Video::Map #2", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\brick_wall_01.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\brick_wall_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\brick_wall_01.jpg"
+	}
+	Video: 2942925792, "Video::Map #11", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\brick_wall_01_normal.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\brick_wall_01_normal.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\brick_wall_01_normal.png"
+	}
+	Video: 2942921952, "Video::Map #2", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\sd_ceiling_01.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\sd_ceiling_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\sd_ceiling_01.jpg"
+	}
+	Video: 2942914272, "Video::Map #2", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\details_02.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\details_02.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\details_02.jpg"
+	}
+	Video: 2942922592, "Video::Map #2", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_foor_titles_01.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_foor_titles_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_foor_titles_01.jpg"
+	}
+	Video: 2942911712, "Video::Map #2", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_walpaper_01.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_walpaper_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_walpaper_01.jpg"
+	}
+	Video: 2942918112, "Video::Map #7", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\alphas_01.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\alphas_01.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\alphas_01.png"
+	}
+	Video: 2942911072, "Video::Map #8", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\alphas_01_alpha.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\alphas_01_alpha.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\alphas_01_alpha.png"
+	}
+	Video: 2942930272, "Video::Map #2", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\details_03.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\details_03.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\details_03.jpg"
+	}
+	Video: 2942926432, "Video::Map #2", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\lib_carpet.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\lib_carpet.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\lib_carpet.jpg"
+	}
+	Video: 2942931552, "Video::Map #19", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_foor_wood_01.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_foor_wood_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_foor_wood_01.jpg"
+	}
+	Video: 2942918752, "Video::Map #10", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\glasses_01.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\glasses_01.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\glasses_01.png"
+	}
+	Video: 2942928992, "Video::Map #20", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_dust.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_dust.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_dust.png"
+	}
+	Video: 2942932192, "Video::Map #21", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_dust_alpha.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_dust_alpha.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_dust_alpha.png"
+	}
+	Video: 2942919392, "Video::Map #2", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_walpaper_02.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_walpaper_02.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_walpaper_02.jpg"
+	}
+	Video: 2942913632, "Video::Map #27", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\eye_monster_01.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\eye_monster_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\eye_monster_01.jpg"
+	}
+	Video: 2942915552, "Video::Map #23", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_skull.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_skull.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\class_skull.png"
+	}
+	Video: 2942923232, "Video::Map #25", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_girl_alert.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_girl_alert.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\class_girl_alert.png"
+	}
+	Video: 2942923872, "Video::Map #26", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_lights_halo.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_lights_halo.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_lights_halo.png"
+	}
+	Video: 2942924512, "Video::Map #26", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\eye_monster_glasses_01.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\eye_monster_glasses_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\eye_monster_glasses_01.jpg"
+	}
+	Video: 2942930912, "Video::Map #28", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_items_01.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_items_01.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_items_01.png"
+	}
+	Video: 2942932832, "Video::Map #29", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_rat.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_rat.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_rat.jpg"
+	}
+	Video: 2942916832, "Video::Map #30", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_rat_notmal.jpg"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_rat_notmal.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_rat_notmal.jpg"
+	}
+	Texture: 1987553952, "Texture::Map #2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #2"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #2"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_wall_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\class_wall_01.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1987559328, "Texture::Map #2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #2"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #2"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\lights_01.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\lights_01.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1987564704, "Texture::Map #2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #2"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #2"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_ceiling_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\class_ceiling_01.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1987554720, "Texture::Map #2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #2"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #2"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_floor_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\class_floor_01.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1987565472, "Texture::Map #2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #2"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #2"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_details_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\class_details_01.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1987555488, "Texture::Map #2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #2"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #2"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_bush_01.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\class_bush_01.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1987561632, "Texture::Map #2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #2"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #2"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\brick_wall_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\brick_wall_01.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1987558560, "Texture::Map #11", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #11"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #11"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\brick_wall_01_normal.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\brick_wall_01_normal.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1987562400, "Texture::Map #2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #2"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #2"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\sd_ceiling_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\sd_ceiling_01.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1987563168, "Texture::Map #2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #2"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #2"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\details_02.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\details_02.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1987566240, "Texture::Map #2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #2"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #2"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_foor_titles_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_foor_titles_01.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1987556256, "Texture::Map #2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #2"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #2"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_walpaper_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_walpaper_01.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1987557024, "Texture::Map #7", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #7"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #7"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\alphas_01.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\alphas_01.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "Alpha_Black"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1987557792, "Texture::Map #8", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #8"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #8"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\alphas_01_alpha.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\alphas_01_alpha.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1010443952, "Texture::Map #2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #2"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #2"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\details_03.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\details_03.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1010450096, "Texture::Map #2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #2"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #2"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\lib_carpet.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\lib_carpet.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 1010444720, "Texture::Map #19", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #19"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #19"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_foor_wood_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_foor_wood_01.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 567489120, "Texture::Map #10", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #10"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #10"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\glasses_01.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\glasses_01.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2936941904, "Texture::Map #20", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #20"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #20"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_dust.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_dust.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "Alpha_Black"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2936938064, "Texture::Map #21", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #21"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #21"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_dust_alpha.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_dust_alpha.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2936951120, "Texture::Map #2", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #2"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #2"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_walpaper_02.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_walpaper_02.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2936944208, "Texture::Map #27", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #27"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #27"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\eye_monster_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\eye_monster_01.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2936947280, "Texture::Map #23", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #23"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #23"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_skull.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\class_skull.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2936937296, "Texture::Map #25", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #25"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #25"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\class_girl_alert.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\class_girl_alert.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2936948048, "Texture::Map #26", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #26"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #26"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_lights_halo.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_lights_halo.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "Alpha_Black"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2936950352, "Texture::Map #26", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #26"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #26"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\eye_monster_glasses_01.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\eye_monster_glasses_01.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2936948816, "Texture::Map #28", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #28"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #28"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_items_01.png"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_items_01.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "Alpha_Black"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2936938832, "Texture::Map #29", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #29"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #29"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_rat.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_rat.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Texture: 2936949584, "Texture::Map #30", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #30"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #30"
+		FileName: "C:\Users\user\Documents\3dsMax\sceneassets\images\HG3D_textures\library_rat_notmal.jpg"
+		RelativeFilename: "..\sceneassets\images\HG3D_textures\library_rat_notmal.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	CollectionExclusive: 1065550112, "DisplayLayer::secret door", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.882352941176471,0.345098039215686,0.780392156862745
+		}
+	}
+	CollectionExclusive: 1065535328, "DisplayLayer::library", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.56078431372549,0.882352941176471,0.341176470588235
+		}
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	
+	;Model::library_sketch_02, Model::RootNode
+	C: "OO",2938912656,0
+	
+	;AnimLayer::BaseLayer, AnimStack::horror3D_loc_anim_03
+	C: "OO",2935641264,2665737776
+	
+	;Geometry::, Model::library_sketch_02
+	C: "OO",1050044096,2938912656
+	
+	;Material::Material #17, Model::library_sketch_02
+	C: "OO",570972544,2938912656
+	
+	;Material::texture_01, Model::library_sketch_02
+	C: "OO",570949504,2938912656
+	
+	;Material::texture_01, Model::library_sketch_02
+	C: "OO",570953984,2938912656
+	
+	;Material::texture_01, Model::library_sketch_02
+	C: "OO",570974464,2938912656
+	
+	;Material::texture_01, Model::library_sketch_02
+	C: "OO",570955264,2938912656
+	
+	;Material::texture_01, Model::library_sketch_02
+	C: "OO",570978304,2938912656
+	
+	;Material::texture_01, Model::library_sketch_02
+	C: "OO",570954624,2938912656
+	
+	;Material::texture_01, Model::library_sketch_02
+	C: "OO",570978944,2938912656
+	
+	;Material::texture_01, Model::library_sketch_02
+	C: "OO",570975104,2938912656
+	
+	;Material::texture_01, Model::library_sketch_02
+	C: "OO",570976384,2938912656
+	
+	;Material::texture_01, Model::library_sketch_02
+	C: "OO",570977024,2938912656
+	
+	;Material::Material #12, Model::library_sketch_02
+	C: "OO",570977664,2938912656
+	
+	;Material::Material #15, Model::library_sketch_02
+	C: "OO",570957184,2938912656
+	
+	;Material::Material #16, Model::library_sketch_02
+	C: "OO",570946944,2938912656
+	
+	;Material::Material #18, Model::library_sketch_02
+	C: "OO",570947584,2938912656
+	
+	;Material::Material #19, Model::library_sketch_02
+	C: "OO",570957824,2938912656
+	
+	;Material::Material #15, Model::library_sketch_02
+	C: "OO",570948224,2938912656
+	
+	;Material::Material #68, Model::library_sketch_02
+	C: "OO",570958464,2938912656
+	
+	;Material::Material #71, Model::library_sketch_02
+	C: "OO",570959104,2938912656
+	
+	;Material::Material #23, Model::library_sketch_02
+	C: "OO",2942920672,2938912656
+	
+	;Material::Material #69, Model::library_sketch_02
+	C: "OO",2942912352,2938912656
+	
+	;Material::Material #70, Model::library_sketch_02
+	C: "OO",2942927712,2938912656
+	
+	;Material::Material #70, Model::library_sketch_02
+	C: "OO",2942920032,2938912656
+	
+	;Material::Material #72, Model::library_sketch_02
+	C: "OO",2942909792,2938912656
+	
+	;Material::Material #73, Model::library_sketch_02
+	C: "OO",2942921312,2938912656
+	
+	;Texture::Map #2, Material::Material #17
+	C: "OP",1987553952,570972544, "DiffuseColor"
+	
+	;Video::Map #2, Texture::Map #2
+	C: "OO",2942927072,1987553952
+	
+	;Texture::Map #2, Material::texture_01
+	C: "OP",1987559328,570949504, "DiffuseColor"
+	
+	;Video::Map #2, Texture::Map #2
+	C: "OO",2942928352,1987559328
+	
+	;Texture::Map #2, Material::texture_01
+	C: "OP",1987564704,570953984, "DiffuseColor"
+	
+	;Video::Map #2, Texture::Map #2
+	C: "OO",2942910432,1987564704
+	
+	;Texture::Map #2, Material::texture_01
+	C: "OP",1987554720,570974464, "DiffuseColor"
+	
+	;Video::Map #2, Texture::Map #2
+	C: "OO",2942914912,1987554720
+	
+	;Texture::Map #2, Material::texture_01
+	C: "OP",1987565472,570955264, "DiffuseColor"
+	
+	;Video::Map #2, Texture::Map #2
+	C: "OO",2942917472,1987565472
+	
+	;Texture::Map #2, Material::texture_01
+	C: "OP",1987555488,570978304, "DiffuseColor"
+	
+	;Video::Map #2, Texture::Map #2
+	C: "OO",2942929632,1987555488
+	
+	;Texture::Map #2, Material::texture_01
+	C: "OP",1987561632,570954624, "DiffuseColor"
+	
+	;Texture::Map #11, Material::texture_01
+	C: "OP",1987558560,570954624, "Bump"
+	
+	;Video::Map #2, Texture::Map #2
+	C: "OO",2942925152,1987561632
+	
+	;Video::Map #11, Texture::Map #11
+	C: "OO",2942925792,1987558560
+	
+	;Texture::Map #2, Material::texture_01
+	C: "OP",1987562400,570978944, "DiffuseColor"
+	
+	;Video::Map #2, Texture::Map #2
+	C: "OO",2942921952,1987562400
+	
+	;Texture::Map #2, Material::texture_01
+	C: "OP",1987563168,570975104, "DiffuseColor"
+	
+	;Video::Map #2, Texture::Map #2
+	C: "OO",2942914272,1987563168
+	
+	;Texture::Map #2, Material::texture_01
+	C: "OP",1987566240,570976384, "DiffuseColor"
+	
+	;Video::Map #2, Texture::Map #2
+	C: "OO",2942922592,1987566240
+	
+	;Texture::Map #2, Material::texture_01
+	C: "OP",1987556256,570977024, "DiffuseColor"
+	
+	;Video::Map #2, Texture::Map #2
+	C: "OO",2942911712,1987556256
+	
+	;Texture::Map #7, Material::Material #12
+	C: "OP",1987557024,570977664, "DiffuseColor"
+	
+	;Texture::Map #8, Material::Material #12
+	C: "OP",1987557792,570977664, "TransparentColor"
+	
+	;Video::Map #7, Texture::Map #7
+	C: "OO",2942918112,1987557024
+	
+	;Video::Map #8, Texture::Map #8
+	C: "OO",2942911072,1987557792
+	
+	;Texture::Map #2, Material::Material #15
+	C: "OP",1010443952,570957184, "DiffuseColor"
+	
+	;Video::Map #2, Texture::Map #2
+	C: "OO",2942930272,1010443952
+	
+	;Texture::Map #2, Material::Material #16
+	C: "OP",1010450096,570946944, "DiffuseColor"
+	
+	;Video::Map #2, Texture::Map #2
+	C: "OO",2942926432,1010450096
+	
+	;Texture::Map #19, Material::Material #18
+	C: "OP",1010444720,570947584, "DiffuseColor"
+	
+	;Video::Map #19, Texture::Map #19
+	C: "OO",2942931552,1010444720
+	
+	;Texture::Map #10, Material::Material #19
+	C: "OP",567489120,570957824, "DiffuseColor"
+	
+	;Video::Map #10, Texture::Map #10
+	C: "OO",2942918752,567489120
+	
+	;Texture::Map #20, Material::Material #15
+	C: "OP",2936941904,570948224, "DiffuseColor"
+	
+	;Texture::Map #21, Material::Material #15
+	C: "OP",2936938064,570948224, "TransparentColor"
+	
+	;Video::Map #20, Texture::Map #20
+	C: "OO",2942928992,2936941904
+	
+	;Video::Map #21, Texture::Map #21
+	C: "OO",2942932192,2936938064
+	
+	;Texture::Map #2, Material::Material #68
+	C: "OP",2936951120,570958464, "DiffuseColor"
+	
+	;Video::Map #2, Texture::Map #2
+	C: "OO",2942919392,2936951120
+	
+	;Texture::Map #27, Material::Material #71
+	C: "OP",2936944208,570959104, "DiffuseColor"
+	
+	;Video::Map #27, Texture::Map #27
+	C: "OO",2942913632,2936944208
+	
+	;Texture::Map #23, Material::Material #23
+	C: "OP",2936947280,2942920672, "DiffuseColor"
+	
+	;Video::Map #23, Texture::Map #23
+	C: "OO",2942915552,2936947280
+	
+	;Texture::Map #25, Material::Material #69
+	C: "OP",2936937296,2942912352, "DiffuseColor"
+	
+	;Video::Map #25, Texture::Map #25
+	C: "OO",2942923232,2936937296
+	
+	;Texture::Map #26, Material::Material #70
+	C: "OP",2936948048,2942927712, "DiffuseColor"
+	
+	;Video::Map #26, Texture::Map #26
+	C: "OO",2942923872,2936948048
+	
+	;Texture::Map #26, Material::Material #70
+	C: "OP",2936950352,2942920032, "DiffuseColor"
+	
+	;Video::Map #26, Texture::Map #26
+	C: "OO",2942924512,2936950352
+	
+	;Texture::Map #28, Material::Material #72
+	C: "OP",2936948816,2942909792, "DiffuseColor"
+	
+	;Video::Map #28, Texture::Map #28
+	C: "OO",2942930912,2936948816
+	
+	;Texture::Map #29, Material::Material #73
+	C: "OP",2936938832,2942921312, "DiffuseColor"
+	
+	;Texture::Map #30, Material::Material #73
+	C: "OP",2936949584,2942921312, "Bump"
+	
+	;Video::Map #29, Texture::Map #29
+	C: "OO",2942932832,2936938832
+	
+	;Video::Map #30, Texture::Map #30
+	C: "OO",2942916832,2936949584
+}
