@@ -13,14 +13,6 @@ public class PlayerScale : MonoBehaviour
     private CameraBobbing cameraBobbing;
     private Transform playerTransform;
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            ReducePlayerSize();
-        }
-    }
-
     private void Start()
     {
         playerMovementMobile = FindObjectOfType<PlayerMovementMobile>();
